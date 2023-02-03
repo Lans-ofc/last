@@ -2,7 +2,7 @@ import { Configuration, OpenAIApi } from "openai";
 let handler = async (m, { conn, text }) => {
 if (!text) throw "[!] Masukkan teks."
 const configuration = new Configuration({
-    apiKey: ""
+    apiKey: "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"
 });
 const openai = new OpenAIApi(configuration);
         const response = await openai.createCompletion({
