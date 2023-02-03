@@ -1,5 +1,5 @@
 let handler = async (m, { conn, usedPrefix, command }) => {
-  conn.sendButton(m.chat, '```Ini Kak```\n\n*©By NexEp*', wm, pickRandom(galau), [['Lanjut', `/videogalau}`]],m)
+  conn.sendButton(m.chat, '```Ini Kak```\n\n*©By Shino • Bot*', wm, pickRandom(galau), [['Lanjut', `/videogalau}`]],m)
 }
 handler.help = ['videoquotes', 'videogalau']
 handler.tags = ['premium', 'quotes']
