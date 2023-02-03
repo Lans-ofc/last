@@ -12,12 +12,12 @@ let handler = async (m, { conn, usedPrefix }) => {
     let audio = `./mp3/nexep.opus`
   conn.sendButton(m.chat, `
 ┏━ꕥ〔 *Donasi • Dana* 〕ꕥ━⬣
-┃✾ Gopay  [-]
-┃✾ Dana  [-]
-┃✾ Saweria  [-]
+┃✾ Gopay  [0895404330700]
+┃✾ Dana  [0895404330700]
+┃✾ Saweria  [saweria.com/hayatod]
 ┗━━━━ꕥ
 ┏━━ꕥ〔 *NOTE* 〕ꕥ━⬣
-┃ Ingin donasi? Wa.me/628812743180
+┃ Ingin donasi? Wa.me/62895404330700
 ┃ _Hasil donasi akan digunakan buat sewa_
 ┃ _atau beli *RDP/VPS* agar bot bisa jalan_
 ┃ _24jam tanpa kendala_
@@ -25,7 +25,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 `.trim(), wm, [['Owner',`/owner`]],m) // Tambah sendiri kalo mau
 conn.sendFile(m.chat, audio, './mp3/nexep.opus', null, m, true, {
 type: 'audioMessage', 
-ptt: true, contextInfo:{ externalAdReply: { title: `💌 Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`, body: `Follow Tiktok My Bestie`, sourceUrl: 'https://www.tiktok.com/@nexep1', thumbnail: await (await fetch('https://i.ibb.co/3RSVFP3/bawah.png')).buffer(),}} 
+ptt: true, contextInfo:{ externalAdReply: { title: `💌 Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`, body: `Follow Tiktok My Bestie`, sourceUrl: 'https://www.tiktok.com', thumbnail: await (await fetch('https://i.ibb.co/3RSVFP3/bawah.png')).buffer(),}} 
      }) 
 }
 handler.command = /^(pay|payment|bayar)$/i
