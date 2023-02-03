@@ -39,7 +39,7 @@ global.povo = '0895404330700'
 global.pgopay = '0895404330700'
 global.ppulsa = '0895404330700'
 global.ppulsa2 = '085770866730'
-global.psaweria = 'saweria.com/hayatod'
+global.psaweria = 'https://saweria.co/hayato'
 
 /*============== NOMOR ==============*/
 global.nomorbot = '6285770866730'
