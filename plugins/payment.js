@@ -14,7 +14,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┏━ꕥ〔 *Donasi • Dana* 〕ꕥ━⬣
 ┃✾ Gopay  [0895404330700]
 ┃✾ Dana  [0895404330700]
-┃✾ Saweria  [saweria.com/hayatod]
+┃✾ Saweria  [https://saweria.co/hayato]
 ┗━━━━ꕥ
 ┏━━ꕥ〔 *NOTE* 〕ꕥ━⬣
 ┃ Ingin donasi? Wa.me/62895404330700
